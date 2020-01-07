@@ -7,8 +7,12 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Nav/>
-        {routes}
+        <div>
+          <Nav/>
+        </div>
+        <div>
+          {routes}
+        </div>
       </div>
     </div>
   );
