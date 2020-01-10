@@ -1,3 +1,7 @@
+*{
+  cursor: default;
+}
+
 .App {
   height: 100vh;
   width: 100vw;
@@ -11,6 +15,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #1c3144;
+  color: #e5e6e4;
 }
 
 .Nav-Bar {
@@ -18,8 +24,9 @@
   height: 10%;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  background: #93a8ac;
 }
 
 .Main-Content {

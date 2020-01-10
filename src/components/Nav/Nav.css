@@ -1,0 +1,26 @@
+.Nav {
+    display: inline;
+    position: relative;
+    right: 2%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    color: #1c3144;
+    border: none;
+    font-size: 3vh;
+}
+
+button:hover {
+    color: #e5e6e4;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './Nav.css'
 import {withRouter} from 'react-router-dom'
 
 class Nav extends Component {
@@ -8,7 +9,7 @@ class Nav extends Component {
 
     render() {
         return(
-            <div>
+            <div className="Nav">
                 <nav>
                     {this.props.location.pathname === '/' ? null
                         :<button onClick={() => this.pageNavigation('')}>Profile</button>
