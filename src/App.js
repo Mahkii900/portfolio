@@ -6,11 +6,11 @@ import Nav from './components/Nav/Nav'
 function App() {
   return (
     <div className="App">
-      <div>
-        <div>
+      <div className="Content">
+        <div className='Nav-Bar'>
           <Nav/>
         </div>
-        <div>
+        <div className="Main-Content">
           {routes}
         </div>
       </div>
