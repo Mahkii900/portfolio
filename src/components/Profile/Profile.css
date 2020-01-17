@@ -1,8 +1,32 @@
-/* .yoMom {
-    background-image: ;
-} */
+.skillz {
+    margin-top: 5%;
+}
 
-p {
-    width: 50vw;
+#profile {
+    width: 75vw;
     overflow: wrap;
+}
+
+.logos {
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logos div {
+    box-sizing: border-box;
+    padding: 10px;
+    height: 150px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
 }

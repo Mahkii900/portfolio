@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './Projects.css'
 
 export default class Project extends Component {
     render() {
