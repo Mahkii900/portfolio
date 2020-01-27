@@ -9,26 +9,31 @@ export default class Project extends Component {
                     <h1>Projects</h1>
                 </div>
                 <div>
-                    <h2>Project 1</h2>
+                    <a href="https://head-games.org/#/" target="_blank" rel='external noopener noreferrer'>
+                        <h2>Head Games</h2>
+                    </a>
                     <div>
                         <p>
-                            Lorem Ipsum
+                            A dating site with a twist: Answer a short quiz about a person's interests before being able to message them. Allows for simpler conversation starter: "Hey I saw that you were interested in...".
+                        </p>
+                        <p>
+                            Best viewed on mobile
                         </p>
                     </div>
                 </div>
                 <div>
-                    <h2>Project 2</h2>
+                    <h2>Frencio</h2>
                     <div>
                         <p>
-                            Lorem Ipsum
+                            A device management system: if a device is broken, users can enter in a code and send a ticket. The person in charge of that room will receive either an email or a text about the ticket.
                         </p>
                     </div>
                 </div>
                 <div>
-                    <h2>Project 3</h2>
+                    <h2>Under Construction</h2>
                     <div>
                         <p>
-                            Lorem Ipsum
+                            This project is currenly under construction
                         </p>
                     </div>
                 </div>
