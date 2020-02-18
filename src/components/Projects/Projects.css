@@ -2,6 +2,14 @@ a > h2:hover {
     cursor: pointer;
 }
 
+a {
+    color: #1c3144;
+}
+
+a:hover {
+    color: #e5e6e4;
+}
+
 .projects {
     box-sizing: border-box;
     padding: 2%;
@@ -14,10 +22,14 @@ a > h2:hover {
 .projects > div {
     margin-bottom: 5%;
     /* border: 1px solid blue; */
-    height: 20vh;
+    box-sizing: border-box;
+    padding: 2%;
+    height: 30vh;
     width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #93a8ac;
+    color: #1c3144;
 }
