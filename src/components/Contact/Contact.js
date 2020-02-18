@@ -22,6 +22,10 @@ export default class Contact extends Component {
                         Email:
                         <input></input>
                     </div>
+                    <div>
+                        Subject:
+                        <input></input>
+                    </div>
                     <div className='message-area'>
                         Message
                         <textarea></textarea>
