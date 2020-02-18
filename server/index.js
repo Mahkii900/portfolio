@@ -5,6 +5,7 @@ const app = express()
 const msgCtrl = require('./controllers/messageController')
 
 app.use(express.json())
+app.use( express.static( `${__dirname}/../build` ) );
 
 app.post('/messages', msgCtrl.sendEmail)
 
