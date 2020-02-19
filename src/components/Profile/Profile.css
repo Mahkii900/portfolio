@@ -52,6 +52,10 @@ a {
     color: white;
 }
 
+a:link {
+    color: white;
+}
+
 a:hover {
     cursor: pointer;
 }
