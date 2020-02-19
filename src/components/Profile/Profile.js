@@ -4,10 +4,10 @@ import './Profile.css'
 export default class Profile extends Component {
     render() {
         return (
-            <div>
-                <div>
+            <div className='profile-content'>
+                <div id='profile-title'>
                     <h1>Daniel Lawyer</h1>
-                    <a data-flickr-embed="true" href="https://www.flickr.com/photos/dclawyer/49358897223/" title="Daniel Lawyer"><img src="https://live.staticflickr.com/65535/49358897223_b9a3b519b7_4k.jpg" width="400" alt="Myself"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                    <a data-flickr-embed="true" href="https://www.flickr.com/photos/dclawyer/49358897223/" title="Daniel Lawyer"><img id='photo' src="https://live.staticflickr.com/65535/49358897223_b9a3b519b7_4k.jpg" alt="Myself"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charSet="utf-8"></script>
                 </div>
                 <div>
                     <h2>About</h2>
@@ -68,13 +68,13 @@ export default class Profile extends Component {
                             <img src='https://raw.githubusercontent.com/Aaron-Nordin/portfolio/master/src/assets/images/thumbs/ReduxIcon.png' alt='redux' height='100px' />
                             <div>Redux</div>
                         </div>
-                        <div>
+                        {/* <div>
                             <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png' alt='c++' height='100px' />
                             <div>C++</div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
-                <div className='skillz'>
+                <div className='github-link'>
                     <h2>GitHub</h2>
                     <div>
                         <a href='https://github.com/Mahkii900' target='_blank' rel='noopener noreferrer'>My GitHub Profile</a>
